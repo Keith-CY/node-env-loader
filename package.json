@@ -1,0 +1,30 @@
+{
+  "name": "node-env-loader",
+  "version": "1.0.6",
+  "keywords": [
+    "node",
+    "env",
+    "environment",
+    "setting"
+  ],
+  "description": "load env config",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=6.10.3"
+  },
+  "scripts": {
+    "test": "ava test"
+  },
+  "repository": "https://github.com/Keith-CY/node-env-loader",
+  "author": "Keith <keithwhisper@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.27",
+    "ava": "^0.19.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.7",
+    "gulp-uglify": "^3.0.0",
+    "shelljs": "^0.7.7",
+    "typescript": "^2.3.4"
+  }
+}
